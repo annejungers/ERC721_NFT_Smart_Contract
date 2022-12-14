@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract HOWESTNFTS is ERC721, ERC721Enumerable, ERC721URIStorage {
+contract FIRSTNFT is ERC721, ERC721Enumerable, ERC721URIStorage {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter; // we initialize Counter library to use track of the NFTs ids
@@ -17,7 +17,7 @@ contract HOWESTNFTS is ERC721, ERC721Enumerable, ERC721URIStorage {
     uint MAX_SUPPLY = 10000;
 
 
-    constructor() ERC721("HOWESTNFTS", "HOW") {} // creating the instance of the SC 
+    constructor() ERC721("FIRSTNFT", "FST") {} // creating the instance of the SC 
                                                 // here we want to run an operation to assign the name and symbol of our smart contract
 
 
