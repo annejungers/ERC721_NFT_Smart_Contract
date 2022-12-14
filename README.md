@@ -8,31 +8,32 @@ How to Develop an ERC721 NFT Smart Contract
 + Cryptocurrency to pay the gas fees
 
 ## Steps.
-1. Write a smart contract on Openzeppelin
+1. Write a smart contract on **Openzeppelin**.
 
-2. Remix IDE. 
+2. **Remix IDE**. 
   Modify the contract to allow people to mint and limit the max supply of NFTs
   
-3. Logging into *Alchemy*.
-  Create app, copy the http address of the app in Metamask to add a testnet to add get *free Goerli ETHERS*
+3. Logging into **Alchemy**.
+  Create app, copy the http address of the app in Metamask to add a testnet to add get **free Goerli ETHERS**
 
-4. Deploy your Smart Contract onto the blockchain via the *Remix IDE* by selecting Injected Web3 (Metamask)
+4. Deploy your Smart Contract onto the blockchain via the **Remix IDE** by selecting **Injected Web3** (Metamask)
 
-5. Create *NFT Metadata*
-  Checking *Opensea metadata structure*, copy it and move it to a *json editor online* [](https://jsoneditoronline.org/).
+5. Create **NFT Metadata**
+  Checking *Opensea metadata structure*, copy it and move it to a **json editor online** [](https://jsoneditoronline.org/).
   
-6. Go on *Filebase*
-  Create a bucket and select *IPFS*
-  Upload an image and copy the IPFS Gateway URL and paste it in the json Editor. 
+6. Go on **Filebase**
+  Create a bucket and select **IPFS**
+  Upload an image and copy the *IPFS Gateway URL* and paste it in the json Editor. 
   
 7. Save json on your Disk and upload json on Filebase on IPFS.
-  So that we have a token URI associated with our token ID
+  So that we have a *token URI* associated with our *token ID*
 
-8. SafeMint() in Remix.
+8. **Mint your NFT**
+  **SafeMint()** in Remix (= *orange function* means that it can write on the blockchain).
   Copy your Metamask address and the IPFS CID of the json file.
-  Click confirm on Metask to mint the NFT, we can see that the NFT id is 0
+  Click confirm on Metask to mint the NFT, we can see that the NFT id is 0 when using **tokenURI()** (*blue function* to read the blockchain).
 
-9. Go on OpenSea Testnet to see your result!
+9. Go on **OpenSea Testnet** to see your result!
 
 
 
