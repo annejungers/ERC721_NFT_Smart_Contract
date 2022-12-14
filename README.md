@@ -33,7 +33,7 @@ How to Develop an ERC721 NFT Smart Contract
   Copy your Metamask address and the IPFS CID of the json file.
   Click confirm on Metask to mint the NFT, we can see that the NFT id is 0 when using **tokenURI()** (*blue function* to read the blockchain).
 
-9. Go on **OpenSea Testnet** to see your result!
+9. Go on **OpenSea Testnet** to see your result!!
 
 
 
